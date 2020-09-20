@@ -1,0 +1,35 @@
+{
+  "name": "lust-web",
+  "version": "1.0.0",
+  "description": "Frontend for lust",
+  "main": "src/index.ts",
+  "repository": "git@github.com:acheronfail/lust.git",
+  "author": "acheronfail <acheronfail@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "monaco-editor": "^0.20.0",
+    "monaco-editor-webpack-plugin": "^1.9.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.6.14",
+    "debounce": "^1.2.0",
+    "monaco-editor-textmate": "^2.2.2",
+    "monaco-textmate": "^3.0.1",
+    "monaco-vscode-textmate-theme-converter": "^0.1.1",
+    "onigasm": "^2.2.4",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2"
+  }
+}
